@@ -29,6 +29,7 @@ class CaGovAccordion extends window.HTMLElement {
 
   connectedCallback() {
     this.classList.add('prog-enhanced');
+    console.log(this.classList)
     this.expandTarget = this.querySelector('.accordion-card-container');
     this.expandButton = this.querySelector('.accordion-card-header');
     if(this.expandButton) {
