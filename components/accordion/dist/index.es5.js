@@ -34,21 +34,15 @@
 
     connectedCallback() {
       this.classList.add('prog-enhanced');
-      console.log(this.classList)
-      console.log(this.querySelector('.prog-enhanced'))
       this.expandTarget = this.querySelector('.accordion-card-container');
       this.expandButton = this.querySelector('.accordion-card-header');
 
       
       if (this.expandButton) {
         this.expandButton.addEventListener('click', this.listen.bind(this));
-      } else {
-        console.log('could not attach expan dlistener')
       }
 
       this.activateButton = this.querySelector('.accordion-card-header');
-      console.log(this)
-      console.log(document.querySelector('.accordion-card-header'))
       this.eventType = this.dataset.eventType ? this.dataset.eventType : 'click'; // Detect if accordion should open by default
 
       let expanded = (this.activateButton) ? this.activateButton.getAttribute('aria-expanded') : false;
@@ -68,7 +62,6 @@
         }
       } // making sure that all links inside of the accordion container are having tabindex -1
       else {
-        console.log('doing something else')
         let allLinks = this.querySelectorAll(".accordion-card-container a");
         let allbuttons = this.querySelectorAll(".accordion-card-container button");
 
