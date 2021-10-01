@@ -9,6 +9,7 @@ THis component adds pdf icon to all links that go to pdf files. Once this compon
 
 ```
 
+
 ### Expected variables
 
 There are some colors that should be defined by the containing page. Here are the CSS variable names and their fallback values used when not defined:
