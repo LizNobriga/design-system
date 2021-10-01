@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.css",
   "scripts": {
-    "build": "sass src/index.scss index.css"
+    "build": "sass src/index.scss index.css",
+    "lint:eslint": "eslint --ext .js . --ignore-path .gitignore",
+    "lint:eslint:fix": "eslint --ext .js . --ignore-path .gitignore --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@open-wc/eslint-config"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -14,6 +21,10 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "@open-wc/eslint-config": "^4.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-lit": "^1.5.1",
     "sass": "^1.38.0"
   }
 }
