@@ -47,7 +47,7 @@ export const demo = () => html`
 Install the package into your production dependencies from npm:
 
 ```bash
-npm i @cagov/accordion
+npm i @cagov/ds-accordion
 ```
 
 ## Include
@@ -55,7 +55,7 @@ npm i @cagov/accordion
 Import into your javascript bundle:
 
 ```js
-import @cagov/accordion
+import @cagov/ds-accordion
 ```
 
 ## Sample markup

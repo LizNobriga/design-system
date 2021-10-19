@@ -14,11 +14,11 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Accordion: Use cases: California design system</title>
-<meta property="og:title" content="Accordion: Use cases: California design system"/>
+<title>Feedback: Overview: California design system</title>
+<meta property="og:title" content="Feedback: Overview: California design system"/>
 
 <meta name="generator" content="rocket 0.1">
-<link rel="canonical" href="/components/accordion/use-cases/"/>
+<link rel="canonical" href="/components/feedback/overview/"/>
 
 
 
@@ -39,7 +39,7 @@
 <meta property="og:type" content="website"/>
 
 <meta property="og:image" content="."/>
-<meta property="og:url" content="/components/accordion/use-cases/"/>
+<meta property="og:url" content="/components/feedback/overview/"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
 
@@ -153,22 +153,14 @@ footer * {
 
     
       <rocket-navigation>
-  <ul><li class="menu-item active">
+  <ul><li class="menu-item">
 <a href="/components/accordion/">Accordion</a>
 <ul><li class="menu-item">
 <a href="/components/accordion/overview/">Overview</a>
 
 </li>
-<li class="menu-item current">
+<li class="menu-item">
 <a href="/components/accordion/use-cases/">Use cases</a>
-<ul>
-  <li class="menu-item anchor">
-    <a href="#openclosed" class="anchor">Open/closed</a>
-  </li>
-  <li class="menu-item anchor">
-    <a href="#used-on" class="anchor">Used on</a>
-  </li>
-</ul>
 
 </li></ul>
 </li>
@@ -179,10 +171,24 @@ footer * {
 
 </li></ul>
 </li>
-<li class="menu-item">
+<li class="menu-item active">
 <a href="/components/feedback/">Feedback</a>
-<ul><li class="menu-item">
+<ul><li class="menu-item current">
 <a href="/components/feedback/overview/">Overview</a>
+<ul>
+  <li class="menu-item anchor">
+    <a href="#demo" class="anchor">Demo</a>
+  </li>
+  <li class="menu-item anchor">
+    <a href="#install" class="anchor">Install</a>
+  </li>
+  <li class="menu-item anchor">
+    <a href="#include-javascript" class="anchor">Include javascript</a>
+  </li>
+  <li class="menu-item anchor">
+    <a href="#sample-markup" class="anchor">Sample markup</a>
+  </li>
+</ul>
 
 </li></ul>
 </li></ul>
@@ -204,25 +210,44 @@ footer * {
       
         <main class="markdown-body">
   
-    <h1 id="accordion-use-cases"><a class="anchor" href="#accordion-use-cases"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Accordion: Use cases</h1>
-<h2 id="openclosed"><a class="anchor" href="#openclosed"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Open/closed</h2>
-<h3 id="starts-closed"><a class="anchor" href="#starts-closed"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Starts closed</h3>
-<mdjs-story mdjs-story-name="demoOpen"></mdjs-story>
-<h3 id="specify-open-to-start-opened"><a class="anchor" href="#specify-open-to-start-opened"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Specify open to start opened</h3>
-<p>Add the attribute <code>aria=expanded=true</code> to the markup element with the class <code>accordion-card-header</code> to specify that the accordion should display as open initially so the internal contents will be visible.</p>
-<mdjs-story mdjs-story-name="demoClosed"></mdjs-story>
-<h2 id="used-on"><a class="anchor" href="#used-on"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Used on</h2>
-<h3 id="covid19cagov"><a class="anchor" href="#covid19cagov"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>covid19.ca.gov</h3>
-<h3 id="alphacagov"><a class="anchor" href="#alphacagov"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>alpha.ca.gov</h3>
-<img src="https://github.com/cagov/storybook-ca-gov/raw/main/packages/%40cagov/accordion/stories/accordion.png">
-        <script type="module" src="/components/accordion/use-cases/__mdjs-stories.js" mdjs-setup></script>
+    <h1 id="feedback-overview"><a class="anchor" href="#feedback-overview"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Feedback: Overview</h1>
+<p>This custom element renders a question that defaults to: "Did you find this page useful?" on page with buttons to reply Yes/No and a separate comment field.</p>
+<p>It accepts a required attribute for the endpoint to POST data to if the user submits a comment: <code>data-endpoint-url=""</code></p>
+<p>It also accepts optional strings for all the text so it can be used in multiple languages:</p>
+<pre><code>data-question="Did you find what you were looking for?"
+data-yes="Yes"
+data-no="No"
+data-comment-prompt="Additional comments:"
+data-thanks-feedback="Thank you for your feedback!"
+data-thanks-comments="Thank you for your comments!"
+data-submit="Submit"
+data-required-field="This field is required"
+</code></pre>
+<p>The Yes/No button interaction does not submit to the endpoint but triggers a separate custom event named <code>ratedPage</code>. In our initial use case we listen for this event on the custom element from code outside this moduel and POST the value to google analytics.</p>
+<h2 id="demo"><a class="anchor" href="#demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Demo</h2>
+<mdjs-story mdjs-story-name="demo"></mdjs-story>
+<h2 id="install"><a class="anchor" href="#install"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Install</h2>
+<p>Install the package into your production dependencies from npm:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i @cagov/ds-feedback
+</code></pre>
+<h2 id="include-javascript"><a class="anchor" href="#include-javascript"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Include javascript</h2>
+<p>Include the package in your javascript bundle:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword module">import</span> @cagov<span class="token operator">/</span>ds<span class="token operator">-</span>feedback
+</code></pre>
+<h2 id="sample-markup"><a class="anchor" href="#sample-markup"><svg class="octicon octicon-link" viewBox="0 0 16 16" aria-hidden="true" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Sample markup</h2>
+<pre><code>&#x3C;cagov-feedback 
+  data-endpoint-url="my-endpoint-url"
+>
+&#x3C;/cagov-feedback>
+</code></pre>
+        <script type="module" src="/components/feedback/overview/__mdjs-stories.js" mdjs-setup></script>
       
 
   
     <div class="content-footer">
   <p>
     Caught a mistake or want to contribute to the documentation?
-    <a href="https://github.com/cagov/design-system/edit/main/./docs/components/accordion/use-cases.md">Edit this page on GitHub!</a>
+    <a href="https://github.com/cagov/design-system/edit/main/./docs/components/feedback/overview.md">Edit this page on GitHub!</a>
   </p>
 </div>
 
