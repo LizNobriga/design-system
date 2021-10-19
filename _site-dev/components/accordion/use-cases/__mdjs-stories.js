@@ -1,17 +1,9 @@
-# Accordion >> Use cases
-
-## Open/closed
-
-### Starts closed
-
-```js script
-import '../../../components/accordion/dist/index.js';
-import '../../../components/plus/index.js';
-import '../../../components/minus/index.js';
+/** script code **/
+import '../../../../components/accordion/dist/index.js';
+import '../../../../components/plus/index.js';
+import '../../../../components/minus/index.js';
 import { html } from 'lit-html';
-```
-
-```js story
+/** stories code **/
 export const demoOpen = () => html`
   <cagov-accordion>
     <div class="cagov-accordion-card">
@@ -34,12 +26,6 @@ export const demoOpen = () => html`
       </div>
     </div>
   </cagov-accordion>`;
-```
-### Specify open to start opened
-
-Add the attribute ```aria=expanded=true``` to the markup element with the class ```accordion-card-header``` to specify that the accordion should display as open initially so the internal contents will be visible.
-
-```js story
 export const demoClosed = () => html`
   <cagov-accordion>
     <div class="cagov-accordion-card">
@@ -62,15 +48,20 @@ export const demoClosed = () => html`
       </div>
     </div>
   </cagov-accordion>`;
-```
-## Used on
-
-### covid19.ca.gov
-
-### alpha.ca.gov
-
-<img src="https://github.com/cagov/storybook-ca-gov/raw/main/packages/%40cagov/accordion/stories/accordion.png" />
-
-
-
-
+/** stories setup code **/
+const rootNode = document;
+const stories = [{ key: 'demoOpen', story: demoOpen }, { key: 'demoClosed', story: demoClosed }];
+let needsMdjsElements = false;
+for (const story of stories) {
+  const storyEl = rootNode.querySelector(`[mdjs-story-name="${story.key}"]`);
+  if (storyEl) {
+    storyEl.story = story.story;
+    storyEl.key = story.key;
+    needsMdjsElements = true;
+    Object.assign(storyEl, {});
+  }
+};
+if (needsMdjsElements) {
+  if (!customElements.get('mdjs-preview')) { import('@mdjs/mdjs-preview/define'); }
+  if (!customElements.get('mdjs-story')) { import('@mdjs/mdjs-story/define'); }
+}

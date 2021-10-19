@@ -17,7 +17,7 @@ import '../../../components/minus/index.js';
 import { html } from 'lit-html';
 ```
 
-```js preview-story
+```js story
 export const demo = () => html`
   <cagov-accordion>
     <div class="cagov-accordion-card">

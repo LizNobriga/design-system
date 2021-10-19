@@ -1,3 +1,2 @@
-# Welcome to Your Rocket Site
+# Welcome to the California design system
 
-Add your markdown content here.
