@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "rocket start",
-    "docs": "rocket build"
+    "docs": "rocket build",
+    "prod-check": "npx web-dev-server --root-dir ./_site",
+    "build": "rimraf dist && rollup -c rollup.config.js",
+    "start:build": "npm run build && web-dev-server --root-dir dist --app-index index.html --open"
   },
   "repository": {
     "type": "git",
@@ -19,9 +22,12 @@
   },
   "homepage": "https://github.com/cagov/design-system#readme",
   "devDependencies": {
+    "@rocket/building-rollup": "^0.4.0",
     "@rocket/cli": "^0.10.0",
     "@rocket/launch": "^0.6.0",
-    "@web/dev-server": "^0.1.17",
+    "@web/dev-server": "^0.1.25",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.58.0",
     "rollup-plugin-import-css": "^2.0.1",
     "sass": "^1.34.1"
   },
