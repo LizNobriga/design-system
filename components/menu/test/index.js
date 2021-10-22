@@ -31,7 +31,7 @@ describe('<cagov-navoverlay>', () => {
     //   running npm run start in the repo root to start local web server
     //   and loading this component's preview.html file
     // await expect(el).to.be.accessible();
-    
+
     // vscode thinks this await is unnecessary but it is required when doing the accessible test
 
     // verify an expected initial class is present
@@ -57,5 +57,4 @@ describe('<cagov-navoverlay>', () => {
     const el = await fixture(html` <button>label</button> `);
     await expect(el).to.be.accessible();
   });
-    
 });
