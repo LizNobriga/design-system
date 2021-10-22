@@ -9,7 +9,7 @@ footer .container {
   box-sizing: border-box;
   max-width: var(--w-lg, 1176px);
   margin: 0 auto;
-  padding: 1rem;
+  padding: 16px;
 }
 footer a:hover {
   color: var(--primary-dark-color, #1e1569);
@@ -39,7 +39,7 @@ footer .bg-light-grey svg .gov {
   fill: var(--cagov-primary-dark, #003484);
 }
 footer .cagov-logo {
-  padding: 0 0 0 0;
+  padding: 0 24px 0 0;
 }
 footer .bg-light-grey a,
 footer .copyright {
