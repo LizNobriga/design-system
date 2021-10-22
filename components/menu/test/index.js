@@ -21,7 +21,7 @@ describe('<cagov-navoverlay>', () => {
     const startHTML = await response.text();
     // use this HTML as a test fixture
     const el = await fixture(startHTML);
-    console.log(el)
+    console.log(el);
 
     // automated axe accessibility test
     // this test can be made to intentionally fail by adding inaccessible code to the template.html
