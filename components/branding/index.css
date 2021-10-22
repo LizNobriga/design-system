@@ -1,5 +1,5 @@
 .branding {
-  padding: 0 15px;
+  padding: 0;
   box-sizing: border-box;
   background-color: var(--white, #fff);
   border-bottom: 1px solid var(--gray-300, #e1e0e3);
@@ -7,7 +7,7 @@
 .branding .container {
   max-width: var(--w-lg, "1176px");
   margin: 0 auto;
-  padding: 16px 0;
+  padding: 16px;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto;
@@ -40,13 +40,15 @@
   text-decoration: none;
 }
 .branding .grid-org-name:focus {
-  outline: 2px solid var(--secondary-color, #fec02f);
+  outline: 2px solid var(--highlight-color, #fec02f);
 }
 .branding .grid-search {
   grid-area: search;
   align-self: center;
   justify-self: end;
   min-width: 40%;
+  position: relative;
+  left: 4px;
 }
 .branding .grid-mobile-icons {
   grid-area: mobile-icons;
@@ -73,7 +75,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
-  gap: 10px;
+  gap: 24px;
 }
 .branding .mobile-search {
   margin: 0 !important;
@@ -123,7 +125,6 @@
   color: var(--primary-color, #064e66);
   display: flex;
   align-items: center;
-  top: -2px;
   right: 0;
   transition: 0.3s;
   transform-origin: center center;
@@ -148,7 +149,8 @@
   transition-duration: 0.15s;
   transition-timing-function: linear;
   position: relative;
-  top: 3px;
+  top: -2px;
+  height: 20px;
   transition: all 0.2s ease-in-out;
   vertical-align: middle;
   z-index: 10000;
@@ -218,31 +220,36 @@ cagov-navoverlay .search-container .site-search {
 .branding .search-container .site-search .search-textfield,
 cagov-navoverlay .search-container .site-search .search-textfield {
   border: 1px solid;
-  border-color: var(--secondary-color, #064e66);
+  border-color: var(--primary-color, #004abc);
   border-radius: 4px;
   padding: 10px;
   width: 100%;
   font-size: 1rem;
+}
+.branding .search-container .site-search .search-textfield:focus,
+cagov-navoverlay .search-container .site-search .search-textfield:focus {
+  outline: 2px solid var(--highlight-color, #fec02f);
+  outline-offset: -2px;
 }
 .branding .search-container .site-search .search-submit,
 cagov-navoverlay .search-container .site-search .search-submit {
   position: relative;
   right: 5px;
   outline-offset: -2px;
-  background-color: var(--secondary-color, #064e66);
-  border: 1px solid var(--secondary-color, #064e66);
+  background-color: var(--primary-color, #004abc);
+  border: 1px solid var(--primary-color, #004abc);
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   padding: 7px 14px 4px 14px;
 }
 .branding .search-container .site-search .search-submit:hover,
 cagov-navoverlay .search-container .site-search .search-submit:hover {
-  background-color: var(--primary-color, #064e66);
-  border-color: var(--primary-color, #064e66);
+  background-color: var(--primary-dark-color, #003484);
+  border-color: var(--primary-dark-color, #003484);
 }
 .branding .search-container .site-search .search-submit:focus,
 cagov-navoverlay .search-container .site-search .search-submit:focus {
-  outline: 2px solid var(--standout-color, #fec02f);
+  outline: 2px solid var(--highlight-color, #fec02f);
 }
 .branding .search-container .site-search .search-submit svg path,
 cagov-navoverlay .search-container .site-search .search-submit svg path {
@@ -250,7 +257,7 @@ cagov-navoverlay .search-container .site-search .search-submit svg path {
 }
 .branding .search-container .site-search .search-close,
 cagov-navoverlay .search-container .site-search .search-close {
-  color: var(--primary-dark-color, #064e66);
+  color: var(--primary-color, #004abc);
   text-decoration: underline;
   border: none;
   background-color: var(--gray-100, #f9f9fa);
@@ -258,12 +265,17 @@ cagov-navoverlay .search-container .site-search .search-close {
 }
 .branding .search-container .site-search .search-close:hover,
 cagov-navoverlay .search-container .site-search .search-close:hover {
-  color: var(--primary, #064e66);
+  color: var(--primary-dark-color, #003484);
   text-decoration: none;
 }
 .branding .search-container .site-search .search-close:focus,
 cagov-navoverlay .search-container .site-search .search-close:focus {
-  outline: 2px solid var(--secondary-color, #fec02f);
+  outline: 2px solid var(--highlight-color, #fec02f);
+}
+.branding .search-container--small,
+cagov-navoverlay .search-container--small {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .branding .search-container--small.hidden-search,
 cagov-navoverlay .search-container--small.hidden-search {

@@ -1,6 +1,12 @@
 # CHANGELOG for ds-base-css
 `ds-base-css`
 
+# 1.0.9
+* Added underline to main body links on hover have another visual cue indicating that they are links fro accessibility. Added some display and positioning utility classes.
+# 1.0.8
+* Updated content-footer container right and left padding to 16px to make it consistent with other components. Also, removed right and left margin from the page container, instead added left and right padding to it.
+# 1.0.7
+* Fixed font-weight for 'ul.list-highlight span.has-black-color'.
 # 1.0.6
 * Removed time selector from code.scss that was creating boxes in search results, also removed main container's margin right in mobile.
 # 1.0.5
