@@ -1,5 +1,13 @@
-# CHANGELOG for cagov-accordion
-`cagov-accordion`
+# CHANGELOG for ds-accordion
+`ds-accordion`
+
+# 1.0.8
+* Linted and formatted code per root eslint/prettier settings.
+* Added unit test.
+
+# 2.0.7 (ds-accordion)
+* Added src folder with index.scss file to be consistent with the rest of the ds components.
+
 # 2.0.11
 * Fixed "allbuttons is not defined" console error.
 

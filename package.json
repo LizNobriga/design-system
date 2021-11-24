@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "description": "State of California Design System A work in progress!",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "rocket start",
-    "docs": "rocket build",
-    "prod-check": "npx web-dev-server --root-dir ./_site",
     "build": "rimraf dist && rollup -c rollup.config.js",
-    "start:build": "npm run build && web-dev-server --root-dir dist --app-index index.html --open"
+    "docs": "rocket build",
+    "format": "npm run format:eslint && npm run format:prettier",
+    "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
+    "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
+    "lint:eslint:fix": "eslint --ext .js,.html . --ignore-path .gitignore --fix",
+    "lint:prettier": "prettier \"**/*.js\" --check --ignore-path .gitignore",
+    "test": "web-test-runner **/*.test.js --node-resolve",
+    "test:visual": "web-test-runner **/*.test.js --node-resolve --config test/test.config.js",
+    "prepare": "husky install",
+    "prod-check": "npx web-dev-server --root-dir ./_site",
+    "start:build": "npm run build && web-dev-server --root-dir dist --app-index index.html --open",
+    "start:rocket": "rocket start"
   },
   "repository": {
     "type": "git",
@@ -22,14 +33,28 @@
   },
   "homepage": "https://github.com/cagov/design-system#readme",
   "devDependencies": {
+    "@open-wc/eslint-config": "^4.3.0",
+    "@open-wc/testing": "^3.0.0-next.2",
     "@rocket/building-rollup": "^0.4.0",
     "@rocket/cli": "^0.10.0",
     "@rocket/launch": "^0.6.0",
-    "@web/dev-server": "^0.1.25",
+    "@web/dev-server": "^0.1.17",
+    "@web/test-runner": "^0.13.16",
+    "@web/test-runner-puppeteer": "^0.10.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.58.0",
     "rollup-plugin-import-css": "^2.0.1",
     "sass": "^1.34.1"
   },
-  "type": "module"
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "workspaces": [
+    "./components/*"
+  ]
 }
