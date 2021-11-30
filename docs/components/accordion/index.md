@@ -1,3 +1,0 @@
-# Accordion
-
--> go to Overview
