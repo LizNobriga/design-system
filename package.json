@@ -16,7 +16,8 @@
     "test": "web-test-runner **/*.test.js --node-resolve",
     "test:visual": "web-test-runner **/*.test.js --node-resolve --config test/test.config.js",
     "prepare": "husky install",
-    "start:rocket": "shx cp -r components docs && rocket start"
+    "start:rocket": "npm run copy && rocket start",
+    "copy": "shx cp -r components docs/ds-components"
   },
   "repository": {
     "type": "git",

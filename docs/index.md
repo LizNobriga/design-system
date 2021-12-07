@@ -1,3 +1,7 @@
+---
+layout: layout-default.njk
+---
+
 <div class="wp-block-ca-design-system-hero cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block wp-block-cagov-hero">
   <div>
     <div class="cagov-stack cagov-p-2 cagov-featured-sidebar">
