@@ -16,8 +16,9 @@
     "test": "web-test-runner **/*.test.js --node-resolve",
     "test:visual": "web-test-runner **/*.test.js --node-resolve --config test/test.config.js",
     "prepare": "husky install",
-    "start:rocket": "npm run copy && rocket start",
-    "copy": "shx cp -r components docs/ds-components"
+    "start:rocket": "npm run copy && npm run clean && rocket start",
+    "copy": "shx mkdir -p docs/ds-components && shx cp -r components/* docs/ds-components",
+    "clean": "shx rm -r docs/ds-components/base-css docs/ds-components/combined-css docs/ds-components/google-translate docs/ds-components/pdf-icon docs/ds-components/external-link-icon docs/ds-components/minus docs/ds-components/plus docs/ds-components/table"
   },
   "repository": {
     "type": "git",

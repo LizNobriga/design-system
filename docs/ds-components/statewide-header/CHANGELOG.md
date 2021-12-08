@@ -1,4 +1,5 @@
-# CHANGELOG for ds-statewide-header
+# Statewide header >> CHANGELOG
+
 `ds-statewide-header`
 
 # 1.0.11

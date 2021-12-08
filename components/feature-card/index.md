@@ -1,3 +1,3 @@
-# Feature-card
+# Feature card
 
--> go to Overview
+-> go to readme

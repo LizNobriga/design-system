@@ -1,3 +1,0 @@
-# Feature-card >> Overview
-
-Hi

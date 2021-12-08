@@ -1,4 +1,4 @@
-# Card grid component
+# Button grid >> readme
 
 The card grid depends on individual cards and lays them out in a grid
 

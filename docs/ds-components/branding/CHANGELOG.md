@@ -1,4 +1,5 @@
-# CHANGELOG for ds-branding
+# Site branding >> CHANGELOG
+
 `ds-branding`
 
 # 1.0.8

@@ -1,4 +1,5 @@
-# CHANGELOG for ds-card-grid
+# Button grid >> CHANGELOG
+
 `ds-card-grid`
 
 # 2.0.1

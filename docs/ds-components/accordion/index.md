@@ -1,3 +1,3 @@
 # Accordion
 
--> go to Overview
+-> go to README

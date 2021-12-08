@@ -1,4 +1,5 @@
-# CHANGELOG for ds-page-alert
+# Page alert >> CHANGELOG
+
 `ds-page-alert`
 
 

@@ -1,4 +1,5 @@
-# CHANGELOG for ds-feature-card
+# Feature card >> CHANGELOG
+
 `ds-feature-card`
 
 # 1.0.5

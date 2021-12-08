@@ -1,4 +1,5 @@
-# CHANGELOG for ds-statewide-footer
+# Statewide footer >> CHANGELOG
+
 `ds-statewide-footer`
 
 # 1.0.5

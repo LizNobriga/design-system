@@ -1,4 +1,5 @@
-# CHANGELOG for ds-agency-footer
+# Department footer >> changelog
+
 `ds-agency-footer`
 
 # 1.0.2

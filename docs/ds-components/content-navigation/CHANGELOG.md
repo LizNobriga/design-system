@@ -1,4 +1,5 @@
-# CHANGELOG for ds-content-navigation
+# Page navigation >> CHANGELOG
+
 `ds-content-navigation`
 
 # 1.0.7
