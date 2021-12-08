@@ -1,4 +1,4 @@
-# Link icons >> CHANGELOG
+# Visual components >> Link icons >> Changelog || 30
 
 `ds-link-icon`
 

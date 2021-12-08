@@ -1,3 +1,3 @@
-# Accordion
+# Content components >> Accordion
 
--> go to README
+-> go to Readme

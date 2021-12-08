@@ -1,3 +1,3 @@
-# Pagination
+# Navigation components >> Pagination
 
--> go to readme
+-> go to Readme

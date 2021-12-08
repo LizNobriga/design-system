@@ -1,4 +1,4 @@
-# Pagination >> readme
+# Navigation components >> Pagination >> Readme
 
 This custom element renders a set of links to page through sets of items.
 

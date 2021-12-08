@@ -1,4 +1,4 @@
-# Statewide footer >> CHANGELOG
+# Structural components >> Statewide footer >> Changelog
 
 `ds-statewide-footer`
 

@@ -8,4 +8,8 @@ node_modules
 docs/_merged_data/
 docs/_merged_assets/
 docs/_merged_includes/
-docs/components/
+docs/ds-components/
+!docs/ds-components/structural/index.md
+!docs/ds-components/visual/index.md
+!docs/ds-components/content/index.md
+!docs/ds-components/navigation/index.md

@@ -1,3 +1,3 @@
-# Link icons
+# Visual components >> Link icons
 
--> go to readme
+-> go to Readme

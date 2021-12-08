@@ -1,3 +1,3 @@
-# Button grid
+# Content components >> Button grid
 
--> go to readme
+-> go to Readme

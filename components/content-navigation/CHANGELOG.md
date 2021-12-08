@@ -1,4 +1,4 @@
-# Page navigation >> CHANGELOG
+# Navigation components >> Page navigation >> Changelog
 
 `ds-content-navigation`
 

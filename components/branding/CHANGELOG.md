@@ -1,4 +1,4 @@
-# Site branding >> CHANGELOG
+# Visual components >> Site branding >> Changelog
 
 `ds-branding`
 

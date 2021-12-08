@@ -1,3 +1,3 @@
-# Per page feedback
+# Structural components >> Per page feedback
 
--> go to readme
+-> go to Readme

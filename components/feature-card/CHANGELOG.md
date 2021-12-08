@@ -1,4 +1,4 @@
-# Feature card >> CHANGELOG
+# Content components >> Feature card >> Changelog
 
 `ds-feature-card`
 

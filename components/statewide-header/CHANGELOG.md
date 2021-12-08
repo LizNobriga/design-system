@@ -1,4 +1,4 @@
-# Statewide header >> CHANGELOG
+# Structural components >> Statewide header >> Changelog
 
 `ds-statewide-header`
 

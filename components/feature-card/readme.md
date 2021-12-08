@@ -1,4 +1,4 @@
-# Feature card >> readme
+# Content components >> Feature card >> Readme
 
 This is a design for featuring important content at the top of a page. The layout uses a sidebar pattern with the text elements: header, description and call to action button on the left and an image on the right. On smaller screens the image appears above the text.
 

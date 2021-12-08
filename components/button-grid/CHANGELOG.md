@@ -1,4 +1,4 @@
-# Button grid >> CHANGELOG
+# Content components >> Button grid >> Changelog
 
 `ds-card-grid`
 

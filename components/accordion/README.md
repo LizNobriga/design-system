@@ -1,4 +1,4 @@
-# Accordion >> readme
+# Content components >> Accordion >> Readme || 10
 
 The accordion element allows for sections of text to be collapsed or expanded on click.
 

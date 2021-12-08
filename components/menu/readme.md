@@ -1,4 +1,4 @@
-# Site navigation >> readme
+# Navigation components >> Site navigation >> Readme || 10
 
 This component adds dropdown menu functionality when provided with expected HTML structure inside its custom element  
 

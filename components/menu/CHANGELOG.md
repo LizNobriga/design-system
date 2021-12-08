@@ -1,4 +1,4 @@
-# Site navigation >> CHANGELOG
+# Navigation components >> Site navigation >> Changelog || 30
 
 `ds-dropdown-menu`
 

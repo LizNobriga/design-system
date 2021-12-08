@@ -1,3 +1,3 @@
-# Page alert
+# Content components >> Page alert
 
--> go to readme
+-> go to Readme

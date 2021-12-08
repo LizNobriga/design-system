@@ -1,4 +1,4 @@
-# Regulatory outline >> readme
+# Content components >> Regulatory outline >> Readme
 
 This CSS-only module contains the styles required to create the list of steps in the following graphic:
 

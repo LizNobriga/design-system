@@ -1,4 +1,4 @@
-# Statewide header >> readme
+# Structural components >> Statewide header >> Readme
 
 This CSS only module contains the styles required to create the list of steps in the following graphic:
 

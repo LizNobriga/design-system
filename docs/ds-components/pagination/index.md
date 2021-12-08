@@ -1,3 +1,0 @@
-# Pagination
-
--> go to readme

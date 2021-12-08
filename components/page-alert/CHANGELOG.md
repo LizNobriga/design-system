@@ -1,4 +1,4 @@
-# Page alert >> CHANGELOG
+# Content components >> Page alert >> Changelog
 
 `ds-page-alert`
 

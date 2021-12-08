@@ -1,3 +1,3 @@
-# Site branding
+# Visual components >> Site branding
 
--> go to readme
+-> go to Readme

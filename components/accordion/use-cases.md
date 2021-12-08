@@ -1,4 +1,4 @@
-# Accordion >> Use cases
+# Content components >> Accordion >> Use cases || 15
 
 ## Open/closed
 

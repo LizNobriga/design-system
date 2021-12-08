@@ -1,4 +1,4 @@
-# Back to Top button >> CHANGELOG
+# Navigation components >> Back to Top button >> Changelog
 
 `ds-back-to-to`
 

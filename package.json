@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "docs": "rocket build",
+    "copy": "npm run copy:structural && npm run copy:visual && npm run copy:content && npm run copy:navigation",
+    "copy:structural": "shx cp -r components/agency-footer components/statewide-footer components/statewide-header components/feedback docs/ds-components/structural/",
+    "copy:visual": "shx cp -r components/branding components/link-icon docs/ds-components/visual/",
+    "copy:content": "shx cp -r components/accordion components/button-grid components/feature-card components/page-alert components/regulatory-outline components/step-list docs/ds-components/content/",
+    "copy:navigation": "shx cp -r components/back-to-top components/content-navigation components/menu components/pagination components/skip-to-content docs/ds-components/navigation/",
     "format": "npm run format:eslint && npm run format:prettier",
     "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
@@ -13,12 +17,11 @@
     "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
     "lint:eslint:fix": "eslint --ext .js,.html . --ignore-path .gitignore --fix",
     "lint:prettier": "prettier \"**/*.js\" --check --ignore-path .gitignore",
-    "test": "web-test-runner **/*.test.js --node-resolve",
-    "test:visual": "web-test-runner **/*.test.js --node-resolve --config test/test.config.js",
     "prepare": "husky install",
-    "start:rocket": "npm run copy && npm run clean && rocket start",
-    "copy": "shx mkdir -p docs/ds-components && shx cp -r components/* docs/ds-components",
-    "clean": "shx rm -r docs/ds-components/base-css docs/ds-components/combined-css docs/ds-components/google-translate docs/ds-components/pdf-icon docs/ds-components/external-link-icon docs/ds-components/minus docs/ds-components/plus docs/ds-components/table"
+    "start": "npm run start:rocket",
+    "start:rocket": "npm run copy && rocket start",
+    "test": "web-test-runner **/*.test.js --node-resolve",
+    "test:visual": "web-test-runner **/*.test.js --node-resolve --config test/test.config.js"
   },
   "repository": {
     "type": "git",

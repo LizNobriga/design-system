@@ -1,3 +1,3 @@
-# Feature card
+# Content components >> Feature card
 
--> go to readme
+-> go to Readme

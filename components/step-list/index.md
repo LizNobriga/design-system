@@ -1,3 +1,3 @@
-# Step list
+# Content components >> Step list
 
--> go to readme
+-> go to Readme
