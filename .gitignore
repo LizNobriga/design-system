@@ -2,13 +2,15 @@ _site
 _site-dev
 node_modules
 .DS_Store
-node_modules
 
 ## Rocket ignore files (need to be the full relative path to the folders)
 docs/_merged_data/
 docs/_merged_assets/
 docs/_merged_includes/
-docs/ds-components/
+docs/ds-components/content/**
+docs/ds-components/navigation/**
+docs/ds-components/structural/**
+docs/ds-components/visual/**
 !docs/ds-components/structural/index.md
 !docs/ds-components/visual/index.md
 !docs/ds-components/content/index.md
