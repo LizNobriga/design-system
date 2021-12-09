@@ -2,18 +2,19 @@
 layout: layout-default.njk
 ---
 
-<div class="wp-block-ca-design-system-hero cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block wp-block-cagov-hero">
-  <div>
-    <div class="cagov-stack cagov-p-2 cagov-featured-sidebar">
-      <h1>People centered digital services at scale</h1>
-      <div class="cagov-hero-body-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium dapibus diam, a finibus metus congue a. Vestibulum laoreet faucibus ultrices. Vestibulum condimentum lectus in arcu ultricies condimentum.</p>
-        <div class="wp-block-button">
-          <a class="wp-block-button__link" href="#">Join the effort</a>
+<div class="full-bleed full-bleed--highlight1">
+  <div class="full-bleed-content-area wp-block-ca-design-system-hero cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block wp-block-cagov-hero">
+    <div>
+      <div class="cagov-stack cagov-p-2 cagov-featured-sidebar">
+        <h1>Meet the California Design System</h1>
+        <div class="cagov-hero-body-content">
+          <p>We make it easy for state digital teams to build accessible, consistent, and performant services and products to meet Californians’ needs.</p>
+          <div class="wp-block-button">
+            <a class="wp-block-button__link" href="/get-started/">Get started</a>
+          </div>
         </div>
       </div>
+      <div><img class="cagov-featured-image" src="/_merged_assets/homepage-sketch.svg" alt="" width="1024" height="683"></div>
     </div>
-    <div><img class="cagov-featured-image" src="/_merged_assets/homepage-sketch.svg" alt="" width="1024" height="683"></div>
   </div>
 </div>
-

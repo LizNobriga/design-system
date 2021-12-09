@@ -5,6 +5,13 @@
   background: transparent;
 }
 #main-header .content-area { display: block; }
+body[layout="layout-default.njk"] main { margin-top: 0; }
+
+#main-header a {
+  color: inherit;
+  transition: none;
+  font-weight: normal;
+}
 </style>
 <link id="theme-stylesheet" rel="stylesheet" href="/css/combined-css/dist/cagov.css">
 
@@ -16,6 +23,27 @@
 cagov-navoverlay {
   border-bottom: none;
 }
+</style>
+
+<!-- modifications to support full-bleed feature-card inside rocket -->
+<style>
+.full-bleed--highlight1 {
+  background: #FFECC1;
+}
+.full-bleed-content-area {
+  padding: 0 20px;
+  display: flex;
+  background: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+  .full-bleed-content-area {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.markdown-body img.cagov-featured-image { width: 85%; }
 </style>
 
 <!-- missing utility classes -->
