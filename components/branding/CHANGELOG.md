@@ -1,4 +1,4 @@
-# Visual components >> Site branding >> Changelog
+# Visual components >> Site branding >> Changelog || 30
 
 `ds-branding`
 

@@ -1,4 +1,4 @@
-# Content components >> Page alert >> Changelog
+# Content components >> Page alert >> Changelog || 30
 
 `ds-page-alert`
 

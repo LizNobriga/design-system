@@ -1,4 +1,4 @@
-# Navigation components >> Page navigation >> Changelog
+# Navigation components >> Page navigation >> Changelog || 30
 
 `ds-content-navigation`
 

@@ -1,4 +1,4 @@
-# Navigation components >> Page navigation >> Readme
+# Navigation components >> Page navigation >> Readme || 10
 
 The content navigation component creates a set of anchor links based on the h2 headers available in the page and writes this list of links as its custom element contents.
 

@@ -1,4 +1,4 @@
-# Structural components >> Department footer >> changelog
+# Structural components >> Department footer >> Changelog || 30
 
 `ds-agency-footer`
 
