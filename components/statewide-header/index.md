@@ -1,3 +1,3 @@
 # Structural components >> Statewide header
 
--> go to Readme
+-> go to Structural components >> Statewide header >> Readme

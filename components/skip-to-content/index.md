@@ -1,3 +1,3 @@
 # Navigation components >> Skip to content
 
--> go to Readme
+-> go to Navigation components >> Skip to content >> Readme

@@ -1,3 +1,3 @@
 # Content components >> Button grid
 
--> go to Readme
+-> go to Content components >> Button grid >> Readme

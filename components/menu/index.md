@@ -1,3 +1,3 @@
 # Navigation components >> Site navigation
 
--> go to Readme
+-> go to avigation components >> Site navigation >> Readme

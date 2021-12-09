@@ -1,3 +1,3 @@
 # Content components >> Regulatory outline
 
--> go to Readme
+-> go to Content components >> Regulatory outline >> Readme

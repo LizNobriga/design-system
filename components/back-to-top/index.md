@@ -1,3 +1,3 @@
 # Navigation components >> Back to Top button
 
--> go to Readme
+-> go to Navigation components >> Back to Top button >> Readme

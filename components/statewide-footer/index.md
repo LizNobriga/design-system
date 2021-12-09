@@ -1,3 +1,3 @@
 # Structural components >> Statewide footer
 
--> go to Readme
+-> go to Structural components >> Statewide footer >> Readme

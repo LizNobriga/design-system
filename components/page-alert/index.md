@@ -1,3 +1,3 @@
 # Content components >> Page alert
 
--> go to Readme
+-> go to Content components >> Page alert >> Readme

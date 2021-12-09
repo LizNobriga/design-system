@@ -1,3 +1,3 @@
 # Content components >> Accordion
 
--> go to Readme
+-> go to Content components >> Accordion >> Readme

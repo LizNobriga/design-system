@@ -1,3 +1,3 @@
 # Structural components >> Department footer
 
--> go to Readme
+-> go to Structural components >> Department footer >> Readme
