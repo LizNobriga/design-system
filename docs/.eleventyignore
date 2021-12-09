@@ -1,3 +1,8 @@
 _assets
 _includes
 _data
+
+!docs/ds-components/content/**
+!docs/ds-components/navigation/**
+!docs/ds-components/structural/**
+!docs/ds-components/visual/**

@@ -18,6 +18,7 @@
     "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
     "lint:eslint:fix": "eslint --ext .js,.html . --ignore-path .gitignore --fix",
     "lint:prettier": "prettier \"**/*.js\" --check --ignore-path .gitignore",
+    "postinstall": "shx cp src/build/exclude .git/info/",
     "prepare": "husky install",
     "start": "npm run start:rocket",
     "start:rocket": "npm run copy && rocket start",
