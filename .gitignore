@@ -7,7 +7,7 @@ node_modules
 docs/_merged_data/
 docs/_merged_assets/
 docs/_merged_includes/
-!docs/ds-components/structural/index.md
-!docs/ds-components/visual/index.md
-!docs/ds-components/content/index.md
-!docs/ds-components/navigation/index.md
+docs/ds-components/content/**/node_modules
+docs/ds-components/navigation/**/node_modules
+docs/ds-components/structural/**/node_modules
+docs/ds-components/visual/**/node_modules
