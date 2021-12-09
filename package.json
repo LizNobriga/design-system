@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "npm run copy && rocket build",
     "copy": "npm run copy:structural && npm run copy:visual && npm run copy:content && npm run copy:navigation",
     "copy:structural": "shx cp -r components/agency-footer components/statewide-footer components/statewide-header components/feedback docs/ds-components/structural/",
     "copy:visual": "shx cp -r components/branding components/link-icon docs/ds-components/visual/",
