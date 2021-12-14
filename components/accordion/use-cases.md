@@ -5,9 +5,7 @@
 ### Starts closed
 
 ```js script
-import '../../../components/accordion/dist/index.js';
-import '../../../components/plus/index.js';
-import '../../../components/minus/index.js';
+import './dist/index.js';
 import { html } from 'lit-html';
 ```
 

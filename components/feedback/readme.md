@@ -22,9 +22,10 @@ The Yes/No button interaction does not submit to the endpoint but triggers a sep
 ## Demo
 
 ```js script
-import '../../../components/feedback/dist/index.js';
+import './dist/index.js';
 import { html } from 'lit-html';
 ```
+
 
 ```js story
 export const demo = () => html`

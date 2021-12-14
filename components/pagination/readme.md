@@ -28,7 +28,7 @@ new CustomEvent("paginationClick", {
 ## Demo
 
 ```js script
-import '../../../components/pagination/dist/index.js';
+import './dist/index.js';
 import { html } from 'lit-html';
 ```
 

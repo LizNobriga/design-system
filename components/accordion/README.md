@@ -11,9 +11,7 @@ The clickable element in the accordion is a standard button. Content inside the 
 This component will default to open so if no script on the page executes the visitor will not be blocked from viewing content. Once the javascript executes the accordion collapses to the desired state. 
 
 ```js script
-import '../../../components/accordion/dist/index.js';
-import '../../../components/plus/index.js';
-import '../../../components/minus/index.js';
+import './dist/index.js';
 import { html } from 'lit-html';
 ```
 

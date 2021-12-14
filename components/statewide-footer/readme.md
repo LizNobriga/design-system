@@ -2,8 +2,6 @@
 
 This CSS only module contains the styles required to render the statewide footer.
 
-<link id="theme-stylesheet" rel="stylesheet" href="/css/components/statewide-footer/index.css">
-
 ```js script
 import { html } from 'lit-html';
 ```

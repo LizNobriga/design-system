@@ -11,3 +11,6 @@ docs/ds-components/content/**/node_modules
 docs/ds-components/navigation/**/node_modules
 docs/ds-components/structural/**/node_modules
 docs/ds-components/visual/**/node_modules
+
+## Tell rocket to ignore the html files copied over inside components folders
+docs/ds-components/**/*.html
