@@ -1,1 +1,1 @@
-# Visual components >> Site branding
+# Visual components >> Agency header

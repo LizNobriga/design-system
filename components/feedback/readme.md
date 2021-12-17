@@ -1,4 +1,4 @@
-# Structural components >> Per page feedback >> Readme || 10
+# Structural components >> Page feedback >> Readme || 10
 
 This custom element renders a question that defaults to: "Did you find this page useful?" on page with buttons to reply Yes/No and a separate comment field.
 

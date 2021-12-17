@@ -1,4 +1,4 @@
-# Content components >> Button grid >> Changelog || 30
+# Content components >> Link grid >> Changelog || 30
 
 `ds-card-grid`
 

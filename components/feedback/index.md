@@ -1,1 +1,1 @@
-# Structural components >> Per page feedback
+# Structural components >> Page feedback

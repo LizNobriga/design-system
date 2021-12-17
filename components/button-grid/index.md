@@ -1,1 +1,1 @@
-# Content components >> Button grid
+# Content components >> Link grid

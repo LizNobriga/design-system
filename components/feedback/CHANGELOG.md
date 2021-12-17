@@ -1,4 +1,4 @@
-# Structural components >> Per page feedback >> Changelog || 30
+# Structural components >> Page feedback >> Changelog || 30
 
 `ds-feedback`
 

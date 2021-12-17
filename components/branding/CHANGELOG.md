@@ -1,4 +1,4 @@
-# Visual components >> Site branding >> Changelog || 30
+# Visual components >> Agency header >> Changelog || 30
 
 `ds-branding`
 
